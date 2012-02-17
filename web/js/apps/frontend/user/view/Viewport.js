@@ -6,29 +6,24 @@
  **/
 
 Ext.define( 'SAMPLE.view.Viewport', {
-    extend  :'Ext.container.Viewport',
-    layout  :'border',
-    border  :false,
-    id      :'viewport',
-    requires:[
-        'SAMPLE.view.Header',
-        'SAMPLE.view.Tabs'
+    extend   : 'Ext.container.Viewport',
+    layout   : 'border',
+    border   : false,
+    id       : 'viewport',
+    requires : [
+        'SAMPLE.view.Header', 'SAMPLE.view.Tabs'
     ],
 
-    initComponent:function () {
-        var me = this;
+    initComponent : function () {
+        this.items = [
+            {
+                xtype : 'header'
+            },
+            {
+                xtype : 'tabs'
+            }
+        ];
 
-        Ext.applyIf( me, {
-            items:[
-                {
-                    xtype:'header'
-                },
-                {
-                    xtype:'tabs'
-                }
-            ]
-        } );
-
-        me.callParent();
+        this.callParent();
     }
-});
+} );

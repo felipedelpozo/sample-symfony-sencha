@@ -6,7 +6,7 @@
  * @date 2012-02-01.13:14:09
  **/
 
-Ext.define( 'ADE.view.user.List', {
+Ext.define( 'SAMPLE.view.user.List', {
     extend:'Ext.grid.Panel',
     alias :'widget.userList',
 
@@ -25,7 +25,7 @@ Ext.define( 'ADE.view.user.List', {
             {
                 header:i18n.email,
                 dataIndex:'email',
-                filter:{ type:'date' }
+                filter:{ type:'string' }
             },
             {
                 header:i18n.address,
@@ -46,7 +46,7 @@ Ext.define( 'ADE.view.user.List', {
 
         this.bbar = new Ext.PagingToolbar( {  //bottom bar configuration
             pageSize   :50, // records per page
-            store      :'User',
+            store      :'Users',
             displayInfo:true
         } );
 

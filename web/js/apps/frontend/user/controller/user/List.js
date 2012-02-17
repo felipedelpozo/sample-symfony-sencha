@@ -16,13 +16,13 @@ Ext.define( 'SAMPLE.controller.user.List', {
         'Users'
     ],
 
-    view : [
+    views : [
         'user.List'
     ],
 
     init : function () {
         this.control( {
-            'incidencesList' : {
+            'userList' : {
                 itemdblclick : this.userEdit
             }
         } );

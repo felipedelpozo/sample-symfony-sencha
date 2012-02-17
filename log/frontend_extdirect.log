@@ -1,0 +1,126 @@
+Feb 17 14:08:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:08:13 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:08:13 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:08:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:08:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:08:13 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:08:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:08:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:08:13 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:08:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:08:27 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:08:27 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:08:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:08:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:08:27 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:08:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:08:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:08:27 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:08:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:08:28 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:08:28 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:08:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:08:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:08:28 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:08:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:08:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:08:28 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:08:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:08:50 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:08:50 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:08:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:08:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:08:50 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:08:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:08:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:08:50 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:09:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:09:51 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:09:51 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:09:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:09:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:09:51 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:09:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:09:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:09:51 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:09:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:09:59 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:09:59 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:09:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:09:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:09:59 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:09:59 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:35 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:35 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:35 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:35 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:38 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:38 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:38 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:38 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:43 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:43 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:43 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:43 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:48 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:48 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:48 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:48 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:51 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:51 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:51 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:12:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:12:56 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:12:56 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:12:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:56 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:12:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:12:56 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:13:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:13:02 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:13:02 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:13:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:13:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:13:02 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:13:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:13:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:13:02 symfony [info] {sfWebResponse} Send content (0 o)
+Feb 17 14:13:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 17 14:13:04 symfony [info] {dsExtDirectController} Starting dsExtDirectRouter.
+Feb 17 14:13:04 symfony [info] {dsExtDirectController} Forwarding to "user/list".
+Feb 17 14:13:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:13:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:13:04 symfony [info] {userActions} Call "userActions->executeList()"
+Feb 17 14:13:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:13:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/javascript; charset=utf-8"
+Feb 17 14:13:04 symfony [info] {sfWebResponse} Send content (0 o)

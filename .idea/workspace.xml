@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fdea32-6da7-45f6-ba91-ab6cd2c0060c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/frontend/lib/helper/SenchaHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/model/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/store/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/templates/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/templates/editSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/templates/newSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/templates/showSuccess.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/.pear/6188b6f981c0bfe0847ca4505725effbrest.cachefile" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/.pear/6188b6f981c0bfe0847ca4505725effbrest.cacheid" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/.pear/61a241c7c9df46f4f6f3e14ceae35842rest.cachefile" afterPath="" />
@@ -40,11 +26,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_module.yml.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_security.yml.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_view.yml.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/app.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/app.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/factories.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/factories.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/settings.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/settings.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/actions/actions.class.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/user/actions/actions.class.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/project_autoload.cache" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php" afterPath="$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_app.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_app.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" />
@@ -54,8 +37,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_factories.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_factories.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_routing.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_routing.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_settings.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_settings.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/project_autoload.cache" afterPath="$PROJECT_DIR$/cache/project_autoload.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_filters.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_filters.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_module.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_module.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_security.yml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_user_config_view.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js" afterPath="$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js" />
     </list>
     <ignored path="sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,10 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.5460751">
+            <state line="31" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexSuccess.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="14" selection-start="866" selection-end="872" vertical-scroll-proportion="-21.76">
               <folding />
             </state>
           </provider>
@@ -89,7 +90,7 @@
       <file leaf-file-name="List.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="56" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+            <state line="38" column="30" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +99,7 @@
       <file leaf-file-name="Tabs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="5" column="5" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,46 +114,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexSuccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php">
+      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/store/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="548" selection-end="548" vertical-scroll-proportion="-12.8">
+            <state line="11" column="4" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="List.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="27" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tabs.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/actions/actions.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="48" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+            <state line="15" column="18" selection-start="344" selection-end="344" vertical-scroll-proportion="0.2663707">
               <folding />
             </state>
           </provider>
@@ -175,20 +149,20 @@
       <list>
         <option value="$PROJECT_DIR$/apps/frontend/lib/helper/SenchaHelper.php" />
         <option value="$PROJECT_DIR$/web/js/apps/frontend/user/store/users.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/model/user.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js" />
         <option value="$PROJECT_DIR$/apps/frontend/config/settings.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/user/actions/actions.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/app.yml" />
         <option value="$PROJECT_DIR$/apps/frontend/config/factories.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/app.js" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js" />
         <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js" />
         <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/app.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js" />
-        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/model/user.js" />
+        <option value="$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js" />
       </list>
     </option>
   </component>
@@ -301,6 +275,112 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,6 +599,13 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -542,23 +629,23 @@
     <frame x="195" y="-1024" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67025864" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67025864" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -641,51 +728,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="276" selection-end="276" vertical-scroll-proportion="0.21309656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="3" selection-start="797" selection-end="797" vertical-scroll-proportion="0.65704775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/actions/actions.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="48" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="56" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/model/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="548" selection-end="548" vertical-scroll-proportion="-12.8">
           <folding />
         </state>
       </provider>
@@ -699,21 +744,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Viewport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+        <state line="28" column="4" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Tabs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+        <state line="30" column="4" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="4" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/user/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="30" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/controller/Tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/user/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="866" selection-end="872" vertical-scroll-proportion="-21.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/store/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.5460751">
+        <state line="31" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/apps/frontend/user/view/user/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="344" selection-end="344" vertical-scroll-proportion="0.2663707">
           <folding />
         </state>
       </provider>

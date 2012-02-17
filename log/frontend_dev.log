@@ -419,3 +419,108 @@ Feb 17 13:32:01 symfony [info] {sfWebDebugLogger} Factories 10.50 ms (1)
 Feb 17 13:32:01 symfony [info] {sfWebDebugLogger} Action "user/index" 0.22 ms (1)
 Feb 17 13:32:01 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 10.59 ms (1)
 Feb 17 13:32:01 symfony [info] {sfWebResponse} Send content (30652 o)
+Feb 17 13:39:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:39:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:39:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:39:09 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:39:09 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:39:09 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:39:09 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:39:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:39:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:39:09 symfony [info] {sfWebDebugLogger} Configuration 152.07 ms (9)
+Feb 17 13:39:09 symfony [info] {sfWebDebugLogger} Factories 112.61 ms (1)
+Feb 17 13:39:09 symfony [info] {sfWebDebugLogger} Action "user/index" 0.37 ms (1)
+Feb 17 13:39:09 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 13.23 ms (1)
+Feb 17 13:39:09 symfony [info] {sfWebResponse} Send content (30692 o)
+Feb 17 13:39:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /user/store/Users.js with parameters array (  'module' => 'user',  'action' => 'store',  'Users.js' => true,)
+Feb 17 13:39:12 symfony [info] {sfFrontWebController} Action "user/store" does not exist
+Feb 17 13:39:12 symfony [err] {sfError404Exception} Action "user/store" does not exist.
+Feb 17 13:39:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 17 13:39:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:39:12 symfony [info] {sfWebDebugLogger} Configuration 1.12 ms (5)
+Feb 17 13:39:12 symfony [info] {sfWebDebugLogger} Factories 6.93 ms (1)
+Feb 17 13:39:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:39:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:39:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:39:22 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:39:22 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:39:22 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:39:22 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:39:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:39:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:39:22 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Feb 17 13:39:22 symfony [info] {sfWebDebugLogger} Factories 6.71 ms (1)
+Feb 17 13:39:22 symfony [info] {sfWebDebugLogger} Action "user/index" 0.21 ms (1)
+Feb 17 13:39:22 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 10.87 ms (1)
+Feb 17 13:39:22 symfony [info] {sfWebResponse} Send content (30687 o)
+Feb 17 13:40:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:40:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:40:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:40:30 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:40:30 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:40:30 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:30 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:40:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:40:30 symfony [info] {sfWebDebugLogger} Configuration 1.34 ms (9)
+Feb 17 13:40:30 symfony [info] {sfWebDebugLogger} Factories 6.35 ms (1)
+Feb 17 13:40:30 symfony [info] {sfWebDebugLogger} Action "user/index" 0.20 ms (1)
+Feb 17 13:40:30 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 6.83 ms (1)
+Feb 17 13:40:30 symfony [info] {sfWebResponse} Send content (30686 o)
+Feb 17 13:40:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:40:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:40:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:40:52 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:40:52 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:40:52 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:52 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:40:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:40:52 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (9)
+Feb 17 13:40:52 symfony [info] {sfWebDebugLogger} Factories 6.27 ms (1)
+Feb 17 13:40:52 symfony [info] {sfWebDebugLogger} Action "user/index" 0.20 ms (1)
+Feb 17 13:40:52 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 6.75 ms (1)
+Feb 17 13:40:52 symfony [info] {sfWebResponse} Send content (30709 o)
+Feb 17 13:40:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:40:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:40:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:40:57 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:40:57 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:40:57 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:57 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:40:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:40:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:40:57 symfony [info] {sfWebDebugLogger} Configuration 1.50 ms (9)
+Feb 17 13:40:57 symfony [info] {sfWebDebugLogger} Factories 10.16 ms (1)
+Feb 17 13:40:57 symfony [info] {sfWebDebugLogger} Action "user/index" 0.38 ms (1)
+Feb 17 13:40:57 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 10.53 ms (1)
+Feb 17 13:40:57 symfony [info] {sfWebResponse} Send content (30712 o)
+Feb 17 13:50:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 13:50:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 13:50:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 13:50:31 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 13:50:31 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 13:50:31 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:50:31 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 13:50:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 13:50:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 13:50:31 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (9)
+Feb 17 13:50:31 symfony [info] {sfWebDebugLogger} Factories 7.70 ms (1)
+Feb 17 13:50:31 symfony [info] {sfWebDebugLogger} Action "user/index" 0.34 ms (1)
+Feb 17 13:50:31 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 9.46 ms (1)
+Feb 17 13:50:31 symfony [info] {sfWebResponse} Send content (30654 o)
+Feb 17 14:12:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 14:12:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 14:12:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 14:12:51 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 14:12:51 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 14:12:51 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 14:12:51 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 14:12:51 symfony [info] {sfWebDebugLogger} Configuration 133.91 ms (9)
+Feb 17 14:12:51 symfony [info] {sfWebDebugLogger} Factories 97.57 ms (1)
+Feb 17 14:12:51 symfony [info] {sfWebDebugLogger} Action "user/index" 0.22 ms (1)
+Feb 17 14:12:51 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 13.97 ms (1)
+Feb 17 14:12:51 symfony [info] {sfWebResponse} Send content (30723 o)

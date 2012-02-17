@@ -6,33 +6,29 @@
  **/
 
 Ext.define( 'SAMPLE.view.Header', {
-    extend  :'Ext.container.Container',
-    alias   :'widget.header',
-    region  :'north',
-    height  :65,
-    layout  :{
-        type :'vbox',
-        align:'stretch'
+    extend : 'Ext.container.Container',
+    alias  : 'widget.header',
+    region : 'north',
+    height : 65,
+    layout : {
+        type  : 'vbox',
+        align : 'stretch'
     },
 
-    initComponent:function () {
-        var me = this;
+    initComponent : function () {
+        this.items = [
+            {
+                height : 60,
+                xtype  : 'container',
+                layout : 'hbox',
+                items  : [
+                    {
+                        html : 'Header'
+                    }
+                ]
+            }
+        ];
 
-        Ext.applyIf( me, {
-            items:[
-                {
-                    height:60,
-                    xtype :'container',
-                    layout:'hbox',
-                    items :[
-                        {
-                            html: 'Header'
-                        }
-                    ]
-                }
-            ]
-        } );
-
-        me.callParent();
+        this.callParent();
     }
-});
+} );

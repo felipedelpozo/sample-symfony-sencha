@@ -6,31 +6,26 @@
  **/
 
 Ext.define( 'SAMPLE.view.Tabs', {
-    extend   :'Ext.tab.Panel',
-    alias    :'widget.tabs',
-    activeTab:0,
-    region   :'center',
+    extend    : 'Ext.tab.Panel',
+    alias     : 'widget.tabs',
+    activeTab : 0,
+    region    : 'center',
 
-    requires:[
+    requires : [
         'SAMPLE.view.user.List'
     ],
 
-    initComponent:function () {
-        var me = this;
-
-        Ext.applyIf( me, {
-            items:[
-                {
-                    xtype:'panel',
-                    title:i18n.users,
-                    items:
-                    {
-                        xtype: 'userList'
-                    }
+    initComponent : function () {
+        this.items = [
+            {
+                xtype : 'panel',
+                title : i18n.users,
+                items : {
+                    xtype : 'userList'
                 }
-            ]
-        });
+            }
+        ];
 
-        me.callParent();
+        this.callParent();
     }
-});
+} );
