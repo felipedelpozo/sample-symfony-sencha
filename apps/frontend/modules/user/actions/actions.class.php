@@ -4,76 +4,74 @@
  * user actions.
  *
  * @package    sample
- * @subpackage user
- * @author     Your name here
- * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ * @author     felipedelpozo
  */
 class userActions extends sfActions
 {
-  public function executeIndex(sfWebRequest $request)
-  {
-    $this->users = Doctrine_Core::getTable('User')
-      ->createQuery('a')
-      ->execute();
-  }
 
-  public function executeShow(sfWebRequest $request)
-  {
-    $this->user = Doctrine_Core::getTable('User')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->user);
-  }
-
-  public function executeNew(sfWebRequest $request)
-  {
-    $this->form = new UserForm();
-  }
-
-  public function executeCreate(sfWebRequest $request)
-  {
-    $this->forward404Unless($request->isMethod(sfRequest::POST));
-
-    $this->form = new UserForm();
-
-    $this->processForm($request, $this->form);
-
-    $this->setTemplate('new');
-  }
-
-  public function executeEdit(sfWebRequest $request)
-  {
-    $this->forward404Unless($user = Doctrine_Core::getTable('User')->find(array($request->getParameter('id'))), sprintf('Object user does not exist (%s).', $request->getParameter('id')));
-    $this->form = new UserForm($user);
-  }
-
-  public function executeUpdate(sfWebRequest $request)
-  {
-    $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-    $this->forward404Unless($user = Doctrine_Core::getTable('User')->find(array($request->getParameter('id'))), sprintf('Object user does not exist (%s).', $request->getParameter('id')));
-    $this->form = new UserForm($user);
-
-    $this->processForm($request, $this->form);
-
-    $this->setTemplate('edit');
-  }
-
-  public function executeDelete(sfWebRequest $request)
-  {
-    $request->checkCSRFProtection();
-
-    $this->forward404Unless($user = Doctrine_Core::getTable('User')->find(array($request->getParameter('id'))), sprintf('Object user does not exist (%s).', $request->getParameter('id')));
-    $user->delete();
-
-    $this->redirect('user/index');
-  }
-
-  protected function processForm(sfWebRequest $request, sfForm $form)
-  {
-    $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
-    if ($form->isValid())
-    {
-      $user = $form->save();
-
-      $this->redirect('user/edit?id='.$user->getId());
+    /**
+     * Executes index action
+     *
+     * @param sfRequest $request A request object
+     */
+    public function executeIndex (sfWebRequest $request) {
+        $this->Language = sfContext::getInstance()->getI18N()->getCulture();
     }
-  }
+
+    /**
+     * Get User List
+     *
+     * @param sfRequest $request A request object
+     * @return none
+     * @extdirect-enable
+     * @extdirect-len 1*
+     */
+    public function executeList (sfWebRequest $request) {
+
+        // Disabled Debug bar
+        sfConfig::set('sf_web_debug', false);
+
+        // Load Sencha Helper
+        sfContext::getInstance()->getConfiguration()->loadHelpers('Sencha');
+
+        // Table name
+        $tableName = 'User';
+
+        // Get parameters
+        $params = array_shift($this->getRequestParameter('_raw'));
+
+        // Create query
+        $query = Doctrine_Query::create()->from("{$tableName} i");
+
+        // Apply filters
+        $query = getSenchaFilterValues($params->filter, $query);
+
+        // Apply sorting
+        foreach ($params->sort as $sort) {
+            $columnName = strtolower($sort->property);
+            $columnDir  = strtolower($sort->direction);
+
+            if (Doctrine::getTable($tableName)->hasColumn($columnName)) {
+                $query->orderBy(sprintf('i.%s %s', Doctrine::getTable($tableName)->getFieldName($columnName), $columnDir));
+            }
+        }
+
+        // Apply pagination
+        $pager = new sfDoctrinePager($tableName, $params->limit);
+        $pager->setQuery($query);
+        $pager->setPage($params->page);
+        $pager->init();
+
+        // Create results
+        $this->result        = new stdClass();
+        $this->result->total = $pager->getNbResults();
+        $this->result->data  = array();
+
+        foreach ($pager->getResults() as $record) {
+            $this->result->data[] = $record->toArray();
+        }
+
+        // Return
+        return sfView::SUCCESS;
+    }
 }

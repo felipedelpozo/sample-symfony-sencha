@@ -1,0 +1,1 @@
+Ext.app.EXTDIRECT_API = {"url":"\/extdirect.php","type":"remoting","actions":{"user":[{"name":"list","len":1}]},"namespace":"SAMPLE"};

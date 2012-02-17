@@ -55,8 +55,8 @@ Configuración symfony:
 
 Módulo:
 
-    http://sample.local/frontend_dev.php/user
+    http://sample.local/index.php/user
 
 Plugins:
 
-    php symfony plugin:install dsExtDirectPlugin
+    http://www.symfony-project.org/plugins/dsExtDirectPlugin

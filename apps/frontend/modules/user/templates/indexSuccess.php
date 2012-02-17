@@ -1,28 +1,39 @@
-<h1>Users List</h1>
+<?php
+/**
+ * User view
+ *
+ * Sencha application for managing users
+ *
+ * @author   felipedelpozo
+ * @link     /frontend.php/user
+ */
 
-<table>
-  <thead>
-    <tr>
-      <th>Id</th>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Address</th>
-      <th>Date</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?php foreach ($users as $user): ?>
-    <tr>
-      <td><a href="<?php echo url_for('user/show?id='.$user->getId()) ?>"><?php echo $user->getId() ?></a></td>
-      <td><?php echo $user->getName() ?></td>
-      <td><?php echo $user->getEmail() ?></td>
-      <td><?php echo $user->getAddress() ?></td>
-      <td><?php echo $user->getDate() ?></td>
-      <td><?php echo $user->getSummary() ?></td>
-    </tr>
-    <?php endforeach; ?>
-  </tbody>
-</table>
+use_stylesheet('../js/extjs/resources/css/ext-all.css');
+use_stylesheet('../js/extjs/ux/grid/css/GridFilters.css');
+use_stylesheet('../js/extjs/ux/grid/css/RangeMenu.css');
+use_javascript('extjs/ext-all.js');
+use_javascript('extjs/locale/ext-lang-' . $sf_data->getRaw('Language') . '.js');
+use_javascript('extdirect_api.js');
 
-  <a href="<?php echo url_for('user/new') ?>">New</a>
+use_javascript('apps/frontend/user/app.js');
+
+use_helper('I18N');
+use_helper('Sencha');
+?>
+
+<script type="text/javascript">
+
+    var i18n = {
+        all     : '<?=__('All')?>',
+        name    : '<?=__('Name')?>',
+        email   : '<?=__('E-Mail')?>',
+        date    : '<?=__('Date')?>',
+        summary : '<?=__('Summary')?>',
+        users   : '<?=__('Users')?>'
+    };
+
+    var models = {
+        user : <?=getSenchaModel('User');?>
+    };
+
+</script>

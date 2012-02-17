@@ -2,4 +2,20 @@
 # http://www.symfony-project.org/reference/1_4/en/11-App
 
 # default values
-#all:
+all:
+  ds_ext_direct_plugin:
+    # Optional. Only use this parameter if you intend to create a mod_rewrite our route to a different URL for your extdirect front controller.
+    router_url: /extdirect.php
+
+    # Optional. Namespace for direct actions (ex: myNs.myAction.myMethod();)
+    action_namespace: SAMPLE
+
+    # Optional. Set the javascript variable name for the js api spec (defaults to 'Ext.app.{YOUR_API_NAME}_API)
+    js_var: Ext.app.EXTDIRECT_API
+
+    # Optional. Set a provider_type (defaults to remoting)
+    provider_type: remoting
+
+    # Optional. List plugins who's action classes you want included in API generation (defaults to null)
+    # ex: include_plugins: [sfGuardPlugin]
+    include_plugins: ~
