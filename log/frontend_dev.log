@@ -1,0 +1,17 @@
+Feb 17 12:25:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /user with parameters array (  'module' => 'user',  'action' => 'index',)
+Feb 17 12:25:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 17 12:25:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 17 12:25:21 symfony [info] {userActions} Call "userActions->executeIndex()"
+Feb 17 12:25:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 17 12:25:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.name AS u__name, u.email AS u__email, u.address AS u__address, u.date AS u__date, u.summary AS u__summary FROM user u - ()
+Feb 17 12:25:21 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/modules/user/templates/indexSuccess.php"
+Feb 17 12:25:21 symfony [info] {sfPHPView} Decorate content with "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 12:25:21 symfony [info] {sfPHPView} Render "/Users/felipedelpozo/Sites/sample/apps/frontend/templates/layout.php"
+Feb 17 12:25:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 17 12:25:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 17 12:25:21 symfony [info] {sfWebDebugLogger} Configuration 97.78 ms (10)
+Feb 17 12:25:21 symfony [info] {sfWebDebugLogger} Factories 105.32 ms (1)
+Feb 17 12:25:21 symfony [info] {sfWebDebugLogger} Action "user/index" 52.16 ms (1)
+Feb 17 12:25:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Feb 17 12:25:21 symfony [info] {sfWebDebugLogger} View "Success" for "user/index" 125.81 ms (1)
+Feb 17 12:25:21 symfony [info] {sfWebResponse} Send content (63318 o)

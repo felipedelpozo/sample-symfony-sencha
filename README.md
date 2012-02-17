@@ -11,7 +11,7 @@ Comprobación de requisitos:
     php lib/vendor/symfony/data/bin/check_configuration.php
     chmod 777 cache/ log/
 
-Configuración del Servidor Apache
+Configuración del Servidor Apache:
 
     # Be sure to only have this line once in your configuration
     NameVirtualHost 127.0.0.1:8080
@@ -35,9 +35,27 @@ Configuración del Servidor Apache
       </Directory>
     </VirtualHost>
 
-Configuración Hosts
+Configuración Hosts:
 
     127.0.0.1 sample.local
+
+Creación base de datos:
+
+    mysql -h localhost -u root -pyoupass
+    mysql> create database sample;
+    mysql> exit;
+
+Importación de datos de ejemplo:
+
+    mysql -u root sample < data/user.sql
+
+Configuración symfony:
+    
+    php symfony configure:database "mysql:host=localhost;dbname=sample" root password
+
+Módulo:
+
+    http://sample.local/frontend_dev.php/user
 
 Plugins:
 
